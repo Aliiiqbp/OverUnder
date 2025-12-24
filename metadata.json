@@ -1,0 +1,5 @@
+{
+  "name": "OverUnder",
+  "description": "An intelligent, AI-powered stock valuation assistant that helps you determine if a stock is overvalued or undervalued using real-time market data and financial indicators.",
+  "requestFramePermissions": []
+}
