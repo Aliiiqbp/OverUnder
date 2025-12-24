@@ -276,12 +276,12 @@ export default function App() {
                {sidebarOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
              </button>
 
-             <div className="bg-blue-600 p-2 rounded-lg shadow-blue-500/20 hidden sm:block">
+             <div className="bg-slate-800 p-2 rounded-lg shadow-inner hidden sm:block">
                <BarChart2 className="w-5 h-5 text-white" />
              </div>
              <div>
-               <h1 className="text-lg font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
-                 OverUnder
+               <h1 className="text-lg font-bold">
+                 <span className="text-red-400">Over</span><span className="text-emerald-400">Under</span>
                </h1>
                <p className="text-[10px] text-slate-400 hidden sm:block">AI Intrinsic Valuation</p>
              </div>

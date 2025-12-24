@@ -15,12 +15,14 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onLogin, isLoading }) => {
 
       <div className="w-full max-w-md bg-slate-900 border border-slate-800 rounded-2xl p-8 shadow-2xl z-10 text-center animate-fade-in-up">
         <div className="flex justify-center mb-6">
-          <div className="bg-blue-600 p-3 rounded-xl shadow-lg shadow-blue-500/20">
+          <div className="bg-slate-800 p-3 rounded-xl shadow-lg shadow-black/20">
             <BarChart2 className="w-10 h-10 text-white" />
           </div>
         </div>
 
-        <h1 className="text-3xl font-bold text-white mb-2">OverUnder</h1>
+        <h1 className="text-3xl font-bold mb-2">
+          <span className="text-red-400">Over</span><span className="text-emerald-400">Under</span>
+        </h1>
         <p className="text-slate-400 mb-8">
           AI-Powered Intrinsic Valuation Agent. <br/>
           Sign in to track your portfolio analysis.
